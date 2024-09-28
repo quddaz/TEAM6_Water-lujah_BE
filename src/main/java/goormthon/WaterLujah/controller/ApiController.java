@@ -2,7 +2,7 @@ package goormthon.WaterLujah.controller;
 
 import goormthon.WaterLujah.DTO.WaterCalRequestDTO;
 import goormthon.WaterLujah.DTO.WaterIntakeRequestDTO;
-import goormthon.WaterLujah.baseResponse.ResponseDto;
+import goormthon.WaterLujah.global.baseResponse.ResponseDto;
 import goormthon.WaterLujah.service.ApiService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package goormthon.WaterLujah.baseResponse;
+package goormthon.WaterLujah.global.baseResponse;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;

@@ -1,6 +1,6 @@
-package goormthon.WaterLujah.exception;
+package goormthon.WaterLujah.global.exception;
 
-import goormthon.WaterLujah.baseResponse.ResponseDto;
+import goormthon.WaterLujah.global.baseResponse.ResponseDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
