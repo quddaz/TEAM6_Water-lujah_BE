@@ -9,7 +9,7 @@ public class WebCorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-            .allowedOrigins("https://web-team6-water-lujah-fe-lxfol2lf38345220.sel5.cloudtype.app/") // 클라이언트 도메인
+            .allowedOrigins("http://localhost:3000") // 클라이언트 도메인
             .allowedMethods("POST")
             .allowedHeaders("*")
             .allowCredentials(true);
